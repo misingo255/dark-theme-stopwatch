@@ -11,7 +11,7 @@ function Timer ({interval, style}) {
   return (
     <Text style = {style}>
       {pad(duration.minutes())}:
-      {pad(duration.seconds())},
+      {pad(duration.seconds())}:
       {pad(centiseconds)}
     </Text>
   )
